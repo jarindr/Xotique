@@ -1,0 +1,166 @@
+.lf-menu {
+	opacity: 1;
+	position: absolute;
+	left: 0;
+	width: 26%;
+	bottom: 0;
+	top: 0;
+	z-index: 10;
+	box-shadow: 0 0 40px black;
+	text-align: center;
+	transition: all 1s;
+}
+.tab-xot {
+	background-image: url(../img/pattens/mb.jpg);
+	width: 100%;
+	height: 33.33%;
+	transition: all 1s;
+}
+.tab-xot:hover {
+	background-image: url(../img/pattens/footer_lodyas.png);
+	transition: all 1s;
+}
+.tab-xot>#logo:hover {
+	-webkit-filter: invert(0%);
+	transition: all 1s;
+}
+#logo {
+	-webkit-filter: invert(100%);
+	transition: all 1s;
+	height: 100%;	
+
+}
+.img-hover{
+		-webkit-filter: invert(100%);
+			transition: all 1s;
+}
+.img-hover:hover{
+
+			transition: all 0.5s;
+			 transform: scale(1.1); 
+}
+.lf-menu:hover {
+}
+.social {
+	z-index: 100;
+	position: absolute;
+	right: 1%;
+	top: 1%;
+	padding-bottom: 0.5%;
+	opacity: 1;
+}
+#logo {
+	width: 100%;
+	text-align: center;
+	padding-top: 20%;
+}
+.main-sd {
+	position: fixed;
+	left: 0;	
+	right: 0;
+	height: 100%;
+	bottom: 0;
+	overflow: hidden;
+}
+#camera_wrap_1 {
+	height: 100%;
+	margin-bottom: 0 !important;
+	position: fixed;
+}
+
+.tab-collection {
+	position: absolute;
+	height: 33.33%;
+	width: 100%;
+	top: 33.33%;
+	overflow: hidden;
+	text-align: right;
+	transition: all 1s;
+}
+.tab-collection:hover {
+	width: 105%;
+	transition: all 1s;
+}
+#col-caption {
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 10%;
+	text-align: left;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+	opacity: 0.9;
+	letter-spacing: 7px;
+}
+.tab-shopln {
+	position: absolute;
+	height: 33.33%;
+	width: 100%;
+	top: 66.66%;
+	background-image: url(../img/tabs/3922702570_fc4c5502c2_m.jpg);
+	transition: all 1s;
+}
+.tab-shopln:hover {
+	transition: all 1s;
+	width: 105%;
+}
+#shop-caption {
+	color: white;
+	position: absolute;
+	top: 40%;
+	right: 5%;
+	font-size: 30px;
+	font-family: 'Abel', sans-serif;
+	opacity: 0.9;
+	letter-spacing: 7px;
+	width: 100%;
+	text-align: right;
+}
+.nav-bar{
+
+}
+
+.hidden-nav ul li{
+		font-family: neobold;
+			color: black;
+			list-style-type: none;
+			font-size: 15px;
+			padding-right:20px;
+			margin-bottom:20%;
+			margin-right: 10px;
+			border-bottom: 1px solid gray;
+
+	
+}
+
+.hidden-nav ul li:hover{
+	color: gray;
+	
+}
+.nav-toggle{
+		position: absolute;
+	z-index: 200;
+	right: 200px;
+	top:10px;
+	background-color:white;
+	text-align: right;
+}
+.hidden-nav{
+		position: absolute;
+	z-index: 1;
+	right:0;
+		top:-200px;
+	background-color:white;
+	text-align: left;
+	opacity: 0;
+		transition:all 0.5s ease;
+}
+.nav-toggle:hover>.hidden-nav{
+	top:52px;
+	opacity: 1;
+	transition:all 0.5s ease;
+	right: 0;
+}
+body{
+	overflow: hidden;
+}
