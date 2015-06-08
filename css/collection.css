@@ -1,0 +1,8 @@
+body{
+    -webkit-background-size:cover;  
+    background-image:url(../img/pattens/mb2.jpg);
+    
+}
+.main-nav{
+ box-shadow: 0 0 1px #cccccc;
+}

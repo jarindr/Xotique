@@ -55,15 +55,12 @@ p{
     font-family: neobold;
     color: black;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 1.5em;
     border-bottom: 1px solid gray;
     text-align: left;
     margin-bottom:30px;
     margin-right:30px;
 }
-    {
-        text-decoration: none;
-    }
 
 
 .hidden-nav ul li:hover{
@@ -80,11 +77,12 @@ p{
     text-align: right;
 }
 .nav-menu:hover{
+    -webkit-filter:invert(100%);
 }
 .hidden-nav{
     position: fixed;
     z-index: 1;
-    top:80px;
+    top:100px;
     background-color:white;
     text-align: left;
     opacity: 0;
