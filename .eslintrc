@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "standard",
+    "standard-react"
+  ],
+  "rules": {
+    "react/jsx-no-bind": "off",
+    "no-return-assign": "off",
+    "react/jsx-closing-bracket-location": "warn"
+  },
+  "globals": {
+    "Image": true
+  }
+}

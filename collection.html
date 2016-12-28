@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <link rel="stylesheet" type="text/css" href="css/about.css">
-<link rel="stylesheet" type="text/css" href="css/collection.css">
 <link rel="stylesheet" type="text/css" href="css/camera.css">
 <link rel="stylesheet" type="text/css" href="fonts/font.css">
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
 <head>
     <title>o t i q u e</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -19,7 +17,7 @@
                 <img src="img/icons/menu48.png"  style="width:60px; vertical-align: midddle; position: absolute; margin: auto; top:0; bottom:0; right:3%;">
             </div>
         </div>
-
+        
         <div class="hidden-nav">
             <ul>
                 <a href="about.html" style="text-decoration: none;" ><li style="margin-top:40px;">about</li></a>
@@ -30,36 +28,16 @@
             </ul>
         </div>
     </div>
-    <div class="container-fluid" style="padding-top:100px; padding-left: 0;padding-right: 0; margin: 0;">
+    <div class="container-fluid" style="padding-top:100px; margin:0;">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="camera_wrap camera_bar" id="camera_wrap_1" style="position:static;">
-                    <div data-src="img/bags/col_1.jpg"  data-fx="simpleFade"  data-transPeriod="3000" >
-                        <div class="camera_caption fadeIn">
-                   
-                        </div>
-                    </div>
-                    <div data-src="img/bags/col_2.jpg"  data-fx="simpleFade"  data-transPeriod="3000" >
-                        <div class="camera_caption fadeIn">
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-4" style="height: auto; overflow: hidden; padding:0;">
+                <img src="img/bags/2.jpg" style="width: 100%;">
             </div>
-
-        </div>
-
-    </div>
-    <div class="container" style="padding-top:100px;">
-        <div class="row">
-            <div class="col-md-7" style="height: auto; overflow: hidden; padding:0;">
-                <img src="img/bags/tran_1.png" style="width: 100%;">
+            <div class="col-lg-4" style="height: auto; overflow: hidden;padding:0;">
+                <img src="img/bags/1.jpg" style="width: 100%;">
             </div>
-            <div class="col-md-5" style="height: auto; overflow: hidden;padding:0;">
-                <p style="font-family: 'Abel', sans-serif; font-size: 30px; letter-spacing: 3px;">python grills</p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-
+            <div class="col-lg-4" style="height: auto; overflow: hidden;padding:0;">
+                <img src="img/bags/3.jpg" style="width: 100%;">
             </div>
         </div>
     </div>
@@ -85,7 +63,7 @@
         jQuery(function () {
             jQuery('#camera_wrap_1').camera({
                 pagination: false,
-                height: '768',
+                height: 'auto',
                 navigation: false,
                 hover: false,
                 time: 5000,
