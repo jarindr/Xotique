@@ -9,6 +9,7 @@ const createStylesheetLoaders = require('./webpack/createStylesheetLoaders')
 
 module.exports = {
   entry: {
+    main: './src/index.js',
     prerender: './src/prerender.js'
   },
 
@@ -31,9 +32,13 @@ module.exports = {
   plugins: [
     new ExtractTextPlugin('assets/stylesheets/style-[contenthash].css'),
     new webpack.optimize.OccurrenceOrderPlugin(),
-    new webpack.optimize.UglifyJsPlugin(),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
     new webpack.optimize.DedupePlugin(),
-    new StaticSiteGeneratorPlugin('prerender', Routes.paths, Routes),
+    new StaticSiteGeneratorPlugin('prerender', Routes.paths, Routes, {window: {}}),
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify(process.env.NODE_ENV)

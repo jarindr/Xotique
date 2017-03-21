@@ -5,10 +5,7 @@ import Layout from '../src/layouts/layout'
 import React from 'react'
 
 export default (
-  <div>
-    {/* main pages */}
-    <Route path='/' component={Layout}>
-      <IndexRoute component={HomePage} />
-    </Route>
-  </div>
+  <Route path='/' component={Layout}>
+    <IndexRoute component={HomePage} />
+  </Route>
 )
