@@ -15,7 +15,7 @@ const HomePage = React.createClass({
             <div className={styles.col50}>
               <div style={{backgroundImage: `url(${require('./assets/resize_bags/JPEG/S05-0217.jpg')})`, height: '600px', backgroundSize: 'cover', backgroundPosition: '0 5%'}} />
               <p>
-                <b style={{fontSize: '30px'}}>Starting from year 1987</b>, Mrs. Nopharat Winyoopradist established Suvino Corporation Limited (Suvino),
+                <b style={{fontSize: '25px', color: 'black', 'lineHeight': '60px'}}>STARTING FROM YEAR 1987,</b><br /> Mrs. Nopharat Winyoopradist established Suvino Corporation Limited (Suvino),
                 one of the best handbag factory in Thailand. Since then the factory have been exporting to Japan and
                 Europe, the two most difficult market for handbags which are known for rigorous quality control, and
                 distinguished designs. Suvino are known to be the best quality handbag manufacturer in Thailand.
@@ -38,8 +38,8 @@ const HomePage = React.createClass({
               <div style={{backgroundImage: `url(${require('./assets/resize_bags/JPEG/Pack-1177.jpg')})`, height: '400px', backgroundPosition: '20% 0', backgroundSize: 'cover'}} />
             </div>
             <div className={styles.col50}>
-              <p>
-                From year 2015 until present, Mr. Ard-Ong and his wife, Mrs. Jiratchaya Winyoopradist started Xotique
+              <p style={{marginTop: 0}}>
+                <b style={{fontSize: '25px', color: 'black', 'lineHeight': '60px'}}>FROM YEAR 2015 UNTIL PRESENT,</b><br /> Mr. Ard-Ong and his wife, Mrs. Jiratchaya Winyoopradist started Xotique
                 Brand together. Mrs. Jiratchaya although not graduated from a design school, but her passion in designs
                 was second to none, and she has a dream of making a brand like none other. With expertise of high
                 detailed production and craftsmanship and strong passion in design, Xotique was established focusing
@@ -48,7 +48,6 @@ const HomePage = React.createClass({
               </p>
             </div>
           </div>
-          <ShowCaseSection />
         </div>
       </div>
     )

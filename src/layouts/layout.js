@@ -19,7 +19,7 @@ const Layout = React.createClass({
             {innerHTML: require('raw!../FontLoader.js'), 'type': 'text/javascript'}
           ]}
           link={[
-            {href: 'https://fonts.googleapis.com/css?family=Slabo+27px|Roboto|Abel', rel: 'stylesheet'}
+            {href: 'https://fonts.googleapis.com/css?family=Slabo+27px|Roboto|Lato|Abel', rel: 'stylesheet'}
           ]}
           meta={[
           ]}
