@@ -1,5 +1,5 @@
 import React from 'react'
-import ShowCaseSection from './ShowCaseSection'
+import StoreSection from './StorePage'
 import TopSectionSlider from './TopSectionSlider'
 import styles from './Homepage.styl'
 
@@ -16,7 +16,7 @@ const HomePage = React.createClass({
               <div style={{backgroundImage: `url(${require('./assets/resize_bags/JPEG/S05-0217.jpg')})`, height: '600px', backgroundSize: 'cover', backgroundPosition: '0 5%'}} />
               <p>
                 <b style={{fontSize: '25px', color: 'black', 'lineHeight': '60px'}}>STARTING FROM YEAR 1987,</b><br /> Mrs. Nopharat Winyoopradist established Suvino Corporation Limited (Suvino),
-                one of the best handbag factory in Thailand. Since then the factory have been exporting to Japan and
+                one of the <b style={{color: 'black'}}>BEST</b> handbag factory in Thailand. Since then the factory have been exporting to Japan and
                 Europe, the two most difficult market for handbags which are known for rigorous quality control, and
                 distinguished designs. Suvino are known to be the best quality handbag manufacturer in Thailand.
                 Production technique and attention to the details were passed on to the second generation, Mr. Ard-
@@ -49,6 +49,7 @@ const HomePage = React.createClass({
             </div>
           </div>
         </div>
+        <StoreSection />
       </div>
     )
   }
